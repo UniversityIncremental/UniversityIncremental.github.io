@@ -1,1 +1,0 @@
-# UniversityIncremental.github.io
