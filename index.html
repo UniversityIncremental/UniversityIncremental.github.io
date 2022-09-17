@@ -1,12 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width">
-      <title>University Incremental</title>
-      <link rel="stylesheet" href="styles.css">
+      <title>University Incremental Login</title>
+      <link rel="stylesheet" href="login-page.css">
+      <script defer src="login-page.js"></script>
+
+      
     </head>
+
     <body>
-      <li><a href="mainscreen.html">Continue to the Next Page.</a></li>
+      <main id="main-holder">
+        <h1 id="log-header">Login</h1>
+
+        <div id="log-error-msg-hoder">
+          <p id="log-error-msg">Invalid Username <span id="error-msg-second-line">and/or paswsword</span></p>
+        </div>
+
+        <form id="log-form">
+          <input type="text" name="username" id="username-field" class="log-form-field" placeholder="Username">
+          <input type="password" name="password" id="password-field" class="log-form-field" placeholder="Password">
+          <input type="submit" value="Login" id="log-form-submit">
+        </form>
+
+    </main>
     </body>
+
 </html>
