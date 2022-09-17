@@ -2,7 +2,7 @@ const logForm = document.getElementById("log-form");
 const logButton = document.getElementById("log-form-submit");
 const logErrorMsg = document.getElementById("log-error-msg");
 
-logButton.addEventListener("click", (e) =>)
+logButton.addEventListener("click", (e) =>
 {
     e.preventDefault();
     const username = logForm.username.value;
@@ -16,4 +16,4 @@ logButton.addEventListener("click", (e) =>)
     {
         logErrorMsg.style.opacity = 1;
     }
-}
+})
